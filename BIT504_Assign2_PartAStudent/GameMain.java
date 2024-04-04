@@ -78,7 +78,7 @@ public class GameMain extends JPanel implements MouseListener{
 				
 				
 				//TODO: set the default close operation of the frame to exit_on_close
-		            
+		            	frame.setDefaultCloseOperation(JFrane.Exit_ON_CLOSE);
 				
 				frame.pack();             
 				frame.setLocationRelativeTo(null);
